@@ -1,0 +1,210 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+.header {
+    height: 10vh;
+    /* width: 100vw; */
+    background-color: rgb(25, 161, 165);
+    display: flex;
+    align-items: center;
+}
+.header .left {
+    width: 15vw;
+    font-size: 2VW;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 3VW; */
+    color: white;
+}
+.header .mid {
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+.home {
+    color: white;
+    border-bottom: 3px solid red;
+}
+.about {
+    color: red;
+    margin-left: 2vw;
+}
+.header .right button{
+    width: 7vw;
+    font-size: 3vh;
+    margin-right: 2vw;
+    border: white;
+    border-radius: 8px;
+}
+.header .right {
+    display: flex;
+    justify-items: center;
+}
+.body1 {
+    height: 80vh;
+    background: rgb(201, 194, 194);
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+.leftbox {
+    height: 40vh;
+    width: 30vw;
+    border: 5px solid red;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center; */
+}
+.leftbox div {
+    font-size: 2vh;
+    height: 11vh;
+    width: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftbox .sidekick {
+    background-color: rgb(90, 217, 221);
+    border: 5px solid rgb(44, 157, 161);
+    border-radius: 10px;
+    margin-left: 12vw;
+    margin-bottom: 1vh;
+}
+.one {
+    margin-left: 12vw;
+}
+.leftbox .hero {
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.leftbox .hero1 {
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 10px;
+    float: left;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.leftbox .hero2 {
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 10px;
+    float: right;
+    margin-right: 1vh;
+}
+.leftbox .hero4 {
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 10px;
+    float: left;
+    margin-left: 6vh;
+}
+.leftbox .hero5 {
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 10px;
+    float: right;
+    margin-top: 5vh;
+    margin-right: 10vh;
+}
+.five {
+    margin-top: 13vh;
+    /* position: fixed; */
+}
+.position {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 12vh;
+    padding-bottom: 5vh;
+}
+.item {
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(90, 217, 221);
+    border: 5px solid rgb(44, 157, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+}
+.f{
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+hr{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.table {
+    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.item2 {
+    height: 20vh;
+    width: 95vh;
+    background-color: rgb(90, 217, 221);
+    border: 5px solid rgb(44, 157, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+}
+.body3 {
+    background-color: rgb(201, 194, 194);
+    height: 275vh;
+}
+.footer {
+    height: 10vh;
+    background:rgb(44, 157, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa{
+    color: white;
+    margin-left: 3vw;
+}
+.scroll {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.scroll .leftbox {
+    overflow: scroll;
+}
+.three {
+    margin-top: 2vw;
+}
+.four {
+    margin-top: 2vw;
+}
+
+
